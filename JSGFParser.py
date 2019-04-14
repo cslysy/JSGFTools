@@ -241,4 +241,4 @@ def getGrammarObject(fileStream):
 if __name__ == '__main__':
     fileStream = open(sys.argv[1])
     grammar = getGrammarObject(fileStream)
-    print grammar
+    print(grammar)
