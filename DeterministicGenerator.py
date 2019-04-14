@@ -126,7 +126,7 @@ if __name__ == '__main__':
     for rule in grammar.publicRules:
         expansions = processRHS(rule.rhs)
         for expansion in expansions:
-            print expansion
+            print(expansion)
 
 
 
